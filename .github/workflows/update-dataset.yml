@@ -2,7 +2,7 @@ name: Update Dataset
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Run daily at midnight
+    - cron: "0 12 * * *"  # Run daily at midnight
 
 jobs:
   update-dataset:
